@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.upbar{
+    /*background-color: rgb(16, 89, 235);*/
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 5vh;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    text-align: end;
+    padding-right: 50px;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.sidebar{
+    padding: 50px;
+    padding-right: 5px;
+    padding-top: 20px;
+   /* background-color: green;*/
+   background-image: url(bg4.jpg);
+    background-size: cover;
+}
+
+.main{
+    /*background-color: rgb(184, 187, 187);*/
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    width: 95vw;
+    height: 89vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.infocontainer{
+    /*background-color: rgb(79, 74, 210);*/
+    height: 60vh;
+    width: 70vw;
+    margin-left: 10vw;
+    margin: 90px;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+.divinfo{
+    display: flex;
+    
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.hello{
+    font-size: 50px;
+    color: rgb(3, 3, 106);
+}
+
+.name{
+    font-size: 45px;
+    color: rgb(14, 14, 231);
+}
+
+.about{
+    font-size: 25px;
+    color: rgb(32, 35, 169);
+}
+
+.button button{
+    padding: 5px 10px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 1PX;
+    cursor: pointer;
+}
+
+.button button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.divpic img{
+    width: 200px;
+    border-radius: 55%;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    font-size: 25px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+li i{
+    padding: 10px;
+    cursor: pointer;
+}
